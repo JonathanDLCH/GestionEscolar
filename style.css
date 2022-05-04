@@ -1,0 +1,98 @@
+:root{
+    /* CSS HEX */
+    --powder-blue: #bee9e8ff;
+    --maximum-blue: #62b6cbff;
+    --maximum-green: rgb(98, 203, 98);
+    --indigo-dye: #1b4965ff;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--powder-blue);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+    margin: 30px auto;
+}
+h2{
+    text-align: center;
+}
+
+td{
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+}
+
+.style-form{
+    display: flex;
+    flex-direction: column;
+    background: var(--indigo-dye);
+    color: whitesmoke;
+    width: 60%;
+    border-radius: 20px;
+    padding: 35px;
+}
+
+.style-form >*{
+    margin: 10px;
+}
+
+.style-form label{
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.style-button{
+    background: var(--maximum-green);
+    border-radius: 10px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-style: none;
+    height: 30px;
+    width: 50%;
+    margin: 5px auto;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.perfil{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.main-user{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-user section{
+    margin: 20px auto;
+}
+
+.alumno{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
